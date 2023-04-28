@@ -87,7 +87,7 @@ function compare(a,b){
     else{
         result = "NO";}
     if (result == "NO"){
-        for(var i = 1; i<b.length+1; i++){
+        for(var i = 0; i<b.length; i++){
             if (a[i] != b[i]){
                 return result;
             }
