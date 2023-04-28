@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.resultbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #ffffff;
+    display: block;
+    width: 50px;
+    padding: 0;
+    margin: 10px 10px 10px 10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    transition: all 0.2s ;
+}
+
+.btnLightBlue {
+    background: #007bff;
+}
+.btnpurple {
+    background: #8b67ec;
+}
+.btnLightBlue.btnPush {
+    box-shadow: 0px 5px 0px 0px #004996;
+}
+.btnLightBlue.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #004996;
+}
+
+.btnPush:hover {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.btnpurple.btnPush1 {
+    box-shadow: 0px 5px 0px 0px #3c2a6e;
+}
+.btnpurple.btnPush1:hover {
+    box-shadow: 0px 0px 0px 0px #3c2a6e;
+}
+
+.btnPush1:hover {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+button#compareBtn,
+button#resetBtn {
+    background-color: #8b67ec;
+    width: 150px;
+}
+
+
+.result {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-top: 30px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타벅스 논리</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+<body>
+    <div class="container">
+        <h1>스타벅스 논리</h1>
+        <div class="input-group">
+            <input type="text" id="input1" placeholder="점원의 논리식 입력">
+            <input type="text" id="input2" placeholder="주문 논리식 입력">
+        </div>
+        <div class="buttons">
+            <button class="button btnPush btnLightBlue" id="C">C</button>
+            <button class="button btnPush btnLightBlue" id="M">M</button>
+            <button class="button btnPush btnLightBlue" id="and">∧</button>
+            <button class="button btnPush btnLightBlue" id="or">∨</button>
+            <button class="button btnPush btnLightBlue" id="not">~</button>
+            <button class="button btnPush btnLightBlue" id="delete">⌫</button>
+        </div>
+        <div class="resultbutton">
+            <button class="button btnPush1 btnpurple" id="compareBtn">비교</button>
+            <button class="button btnPush1 btnpurple" id="resetBtn">리셋</button>
+        </div>
+        <div class="result">
+            <h2>결과:<span id="resultText"></span></h2>
+            
+        </div>
+    </div>
+    <script src="coffee.js"></script>
+</body>
+</html>
