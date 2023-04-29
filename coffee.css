@@ -21,12 +21,12 @@ h1 {
 
 .input-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 input {
-    flex: 1;
+    width:100%;
     padding: 10px;
     margin-right: 5px;
     margin-left: 5px;
