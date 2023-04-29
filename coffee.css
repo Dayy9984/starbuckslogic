@@ -32,7 +32,13 @@ input {
     margin-left: 5px;
     border: 1px solid #d3d3d3;
 }
-
+span#p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-top: 2px;
+}
 .buttons {
     display: flex;
     justify-content: center;
